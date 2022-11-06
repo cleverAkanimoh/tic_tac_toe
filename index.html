@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clever Akanimoh 30 days js project</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section id="container">
+			<div id="startingPage">
+				<h2>Tic Tac Toe</h2>
+				<div id="line"></div>
+                <h3>SELECT WHICH YOU WANT TO BE!</h3>
+                <div id="button">
+                    <button id="playerX" class="choose">Player ( X )</button>
+                    <button id="playerO" class="choose">Player ( O )</button>
+                </div>
+			</div>
+
+			<main id="mainPage">
+                <div id="headerBtns">
+                    <button id="X_Turn" class="choose">X Turn</button>
+                    <button id="O_Turn" class="choose">O Turn</button>
+                    <div id="showChange"></div>
+                </div>
+                <div id="gameBoard">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+			</main>
+            
+			<div id="winner">
+                <h2 id="winnerName">Player X win The Game!</h2>
+                <div id="button">
+                    <button id="quit">Play Again</button>
+                </div>
+            </div>
+		</section>
+
+		<script src="app.js"></script>
+	</body>
+</html>
